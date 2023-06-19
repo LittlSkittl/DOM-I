@@ -72,7 +72,7 @@ const footerSecondP = footerFirstP.nextElementSibling
 const footerThirdP = footerSecondP.nextElementSibling
 const footerLink = document.querySelector('footer a')
 
-
+footerLink.classList.add('bold')
 
 linkTags.forEach(link => {
   link.classList.add('italic')
